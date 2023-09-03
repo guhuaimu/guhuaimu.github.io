@@ -1,0 +1,110 @@
+body{
+	background-size: 100%;
+	overflow: hidden;
+	
+}
+html{
+	
+	margin: 0;
+	padding: 0;
+	background-size: 100%;
+}
+ul{
+	list-style: none;
+	width: auto;
+}
+ul li{
+	margin: 0px;
+	padding: 0% 0%;
+	float: left;
+	padding: 5px 5px;
+}
+ol>li{
+	margin: 0px;
+	padding: 0% 0%;
+	float: initial;
+	margin-bottom: 15%;
+}
+/* 导航栏 */
+#nav{
+	position: absolute;
+	top: 2px;
+	width: 100%;
+	height: 90%;
+	box-sizing: border-box;
+	color: crimson;
+}
+/* 侧边内容栏 */
+#top{
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	top: 0%;
+	left: 0%;
+	box-sizing: border-box;
+	background-image: url("../img/warn.png");
+	background-repeat: no-repeat;
+	margin: auto;
+	padding: 20px 0px;
+	z-index: 2;
+	vertical-align: bottom;
+	display: block;
+}
+#display_area{
+	display: none;
+	position: absolute;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding-top: 5px;
+	top: 60px;
+	vertical-align: bottom;
+	display: block;
+}
+#left_nav{
+	position: fixed;
+	overflow: hidden;
+	width: 8%;
+	height: 100%;
+	padding: 2px 2px;
+	margin: auto;
+	background-color: aquamarine;
+
+}
+/* 背景图 */
+#frame_back{
+	position: absolute;
+	padding: 20px 20px;
+	width: 100%;
+	height: 100%;
+	/* https://imgapi.xl0408.top */
+	
+	background-image: url("https://imgapi.xl0408.top");
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: 0;
+}
+/* 图层顶层 */
+#frame_top{
+	position: absolute;
+	padding: 20px 20px;
+	width: 100%;
+	height: 100%;
+	/* https://imgapi.xl0408.top */
+	overflow: auto;
+	opacity: 0.6;
+	background-color: darkgray;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.ifmn{
+	position: absolute;
+	width: 90%;
+	height: 20%;
+	background-color: black;
+	border-radius: 10px;
+
+}

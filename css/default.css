@@ -1,0 +1,13 @@
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.center-block{
+	width: 50%;
+	margin: auto;
+}
+
+	
+	
